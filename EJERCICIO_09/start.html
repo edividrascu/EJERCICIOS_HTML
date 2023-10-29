@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My blog</title>
+    <style>
+      
+      article {
+        /* background-image */
+      background-image: url(csgo-background.jpg);
+      background-size: 100% 340px;
+
+     }
+      #lista1{
+        color: rgb(164, 159, 54);
+        background-color: rgb(17, 12, 21,0.7);
+        width: 280px;
+        height: 150px;
+      
+      }
+      h1{
+        text-align: center;
+        color: rgb(164, 159, 54);
+        background-color: rgb(17, 12, 21);
+      }
+      #article{
+        color: rgb(164, 159, 54);
+        background-color: rgb(17, 12, 21,0.7);
+        width: 600px;
+        height: 100px;
+      
+      }
+      form{
+        background-image: url(form.png);
+        background-size: 50% 55px;
+
+      }
+      footer {
+      background-color: #333;
+      color: #fff;
+      text-align: initial;
+      padding: 10px;
+      background-image: url(footer.png);
+      background-size: 50% 200px;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+    <!-- article -->
+     <article>
+      <!-- title -->
+      <h1>My  GAME blog </h1>
+      <!-- paragraph -->
+      <P id="article">Este blog va sobre el juego de  Counter-Strike: Global Offensive <a href="https://ca.wikipedia.org/wiki/Counter-Strike:_Global_Offensive" target="_blank">(CS:GO).</a> <br>
+        Es un juego competitivo de 5v5 jugadores, ya que es un juego de <br>tecnica de pensar 
+        y depende de tus habilidades pues es un juego que se hizo muy popular<br> y muy competitivo 
+        una de las desventjas que yo le veo es que al serr un juego competitivo <br> pues hay muchos jugadores con hacks
+      </P>
+      <ul id="lista1">
+        <h3 id="head_list">Algunos de los mejores Jgadores </h3>
+        <li>S1mple /Equipo: Natus Vincere (Na'Vi)</li>
+        <li>zywoo Equipo: Team Vitality</li>
+        <li>NiKo Equipo: G2 Esports</li>
+        <li>EliGE Equipo: Team Liquid </li>
+      </ul>
+    </article>
+  </main>
+  <section id="form">
+  <form action="">
+    <h2>Formulario de Contacto</h2>
+      <!-- Campo de nombre -->
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required placeholder="Juan">
+      
+      <!-- Campo de correo electrónico obligatorio -->
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required placeholder="correo@gmail.com">
+      <!-- Menú desplegable -->
+      <label for="desplegable">Motivo de contacto:</label>
+      <select id="desplegable" name="desplegable">
+        <option value="consulta">Consulta</option>
+        <option value="comentario">Comentario</option>
+        <option value="sugerencia">Sugerencia</option>
+        <option value="otro">Otro</option>
+      </select>
+      
+      <!-- Botón de envío -->
+      <input type="submit" value="Enviar">
+  </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 Edi Vidrascu</p>
+  </footer>
+  </body>
+</html>
+<!-- Create a HTML blog page.
+* The page should have an article, a footer and a form.
+* The article should have a title, a paragraph and background pictures.
+* The form should have a mandatory email field and a submit button.
+
+Use semantic tags as much as possible. -->
